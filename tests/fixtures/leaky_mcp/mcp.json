@@ -1,0 +1,1 @@
+{"mcpServers": {"demo": {"command": "node", "args": ["server.js"], "env": {"DEMO_API_KEY": "sk-proj-FAKEFAKEFAKEFAKE1234567890abcd", "PLAIN_SETTING": "hello"}}}}

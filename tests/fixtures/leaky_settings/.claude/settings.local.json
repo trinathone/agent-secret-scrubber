@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PGPASSWORD=Sup3rSecretDbPass psql -h db.internal -U app appdb)",
+      "Bash(npm run test:*)",
+      "Bash(sshpass -p Hunter2FakePass ssh deploy@10.0.0.5)",
+      "Bash(mysql -u root -pFakeMysql42 appdb)"
+    ],
+    "deny": []
+  }
+}

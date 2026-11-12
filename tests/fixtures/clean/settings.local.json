@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PGPASSWORD=$DB_PASSWORD psql -h db.internal -U app appdb)",
+      "Bash(npm run test:*)",
+      "Bash(git status)"
+    ]
+  }
+}

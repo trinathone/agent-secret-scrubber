@@ -1,0 +1,8 @@
+Security notes
+
+Always rotate your password every 90 days. If you forget your password, use the reset flow.
+The password field must not be empty in the UI.
+Remember to rotate your password regularly.
+Login script prompt: echo "enter password:" && read -s pw
+Password: see the team vault.
+Tokens expire after one hour; the auth service issues a new token on refresh.
